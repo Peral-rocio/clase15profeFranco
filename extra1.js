@@ -27,7 +27,6 @@ console.log(tienda.includes ("tablet"));
 
 let listaCambiada = tienda.shift();
 
-
 console.log("producto sacado:" + " " + listaCambiada);
 
 let listaActualizada = tienda.join(" ");
