@@ -11,7 +11,7 @@
 // 3.
 // Eliminar el primer producto del inventario.
 // 4.
-// Mostrar la lista actualizada
+// Mostrar la lista actualizada de productos en una sola cadena, separados por comas.
 
 let tienda = [
     "laptop",
@@ -27,5 +27,9 @@ console.log(tienda.includes ("tablet"));
 
 let listaCambiada = tienda.shift();
 
-console.log(tienda);
+
 console.log("producto sacado:" + " " + listaCambiada);
+
+let listaActualizada = tienda.join(" ");
+
+console.log(listaActualizada);
